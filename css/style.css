@@ -1,0 +1,110 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: -webkit-linear-gradient(#333333, #777777);
+	padding: 10px 0;
+}
+
+.container { 
+	width: 80%; 
+	background: -webkit-linear-gradient(#00CCFF, #CCFFFF);
+	box-shadow: 0 0 10px;
+	padding: 20px 100px;
+	margin: 0 auto;
+}
+
+.label, .btn { 
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+	width: 50px;
+}
+
+.btn { 
+	background: -webkit-linear-gradient(#FFCCFF, #FF99FF);
+	font-size:16px;
+}
+
+.btn:hover { 
+	color:#fff;
+	font-weight: 700;
+	background: -webkit-linear-gradient( #FF99FF, #FFCCFF);
+}
+
+.btn:active { 
+	background-color: #DC143C;
+	animation: zoomOut 2s;
+}
+
+#js-winGameElement { 
+	width: 80%;
+}
+
+img {
+	width: 60%;
+}
+
+.field .col {
+	width: 100px;
+	height: 100px;
+	float: left;
+	display: inline-block;
+	border: 2px solid black;
+	padding: 5px;
+	background: -webkit-linear-gradient(#FFCC33, #FFFF99);
+}
+
+.field .row {
+	margin: 0 auto;
+	width: 310px;
+}
+
+.col p {
+	font-size: 90px;
+	padding: 20px;
+	line-height: 0px;
+}
+
+#js-playerPickElement .btn {
+	width: 50px;
+}
+
+#js-change-player {
+	font-size: 20px;
+	color: #000099;
+	text-align: center;
+}
+
+#js-new-round, #js-newGameButton {
+	width: 100px;
+	background: -webkit-linear-gradient(#33FF99, #00CC66);
+	font-weight: 700;
+	color: #fff;
+}
+
+#js-new-round:hover, #js-newGameButton:hover {
+	color: #000099;
+	background: -webkit-linear-gradient(#00CC66, #33FF99);
+	transition: 0.3s;
+}
+
+#js-new-round {
+	margin: 20px auto;
+}
+
+#js-field {
+	background: #CCFFFF;
+}
+
+h2 {
+	color: #000099; 
+	font-weight: 700;
+}
+
+h2>span {
+	font-family: "Pacifico";
+	letter-spacing: 7px;
+	color: #009933;
+}

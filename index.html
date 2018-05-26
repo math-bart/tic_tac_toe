@@ -1,0 +1,76 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Game</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link rel="Stylesheet" type="text/css" href="css/animate.css">
+	<link rel="Stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<h2 class="text-center">
+			Welcome to the game <span>TIC TAC TOE</span>
+		</h2>
+	</div>
+	<div id="js-newGameElement" class="container">
+		<div class="row text-center">
+			<button  id="js-newGameButton" class="btn btn-default">
+				New game
+			</button>
+		</div>
+	</div>
+	<div id="js-winGameElement" class="container text-center">
+		<img src="images/confetti.gif">
+	</div>
+	<div id="js-playerPickElement" class="container">
+		<div id="js-change-player">Player one - pick field number</div>
+		<button id="js-1-pick" class="btn">1</button>
+		<button id="js-2-pick" class="btn">2</button>
+		<button id="js-3-pick" class="btn">3</button>
+		<button id="js-4-pick" class="btn">4</button>
+		<button id="js-5-pick" class="btn">5</button>
+		<button id="js-6-pick" class="btn">6</button>
+		<button id="js-7-pick" class="btn">7</button>
+		<button id="js-8-pick" class="btn">8</button>
+		<button id="js-9-pick" class="btn">9</button>
+	</div>	
+	<div id="js-field" class="container field">
+		<button id="js-new-round" class="btn btn-default">New round</button>
+		<div class="row">
+			<div class="col">1<p></p></div>
+			<div class="col">2<p></p></div>
+			<div class="col">3<p></p></div>
+		</div>
+		<div class="row">
+			<div class="col">4<p></p></div>
+			<div class="col">5<p></p></div>
+			<div class="col">6<p></p></div>
+		</div>
+		<div class="row">
+			<div class="col">7<p></p></div>
+			<div class="col">8<p></p></div>
+			<div class="col">9<p></p></div>
+		</div>
+	</div>
+	<div id="js-resultsTableElement" class="container text-center">
+		<div class="row">
+			<div class="col-xs-5 text-center">
+				<span id="js-playerPoints" class="badge">0</span>
+				<span id="js-playerName">Player Name</span>
+			</div>
+			<div class="col-xs-2 text-center">
+				VS.
+			</div>
+			<div class="col-xs-5 text-center">
+				<span id="js-player2Points" class="badge">0</span>
+				<span id="js-player2Name">Player Name</span>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
