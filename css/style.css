@@ -5,6 +5,7 @@
 body {
 	background: -webkit-linear-gradient(#333333, #777777);
 	padding: 10px 0;
+	min-height: 100vh;
 }
 
 .container { 
